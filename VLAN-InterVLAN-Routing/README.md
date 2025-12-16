@@ -33,11 +33,11 @@ name IT
 vlan 30
 name HR
 
-Trunk Configuration
+## Trunk Configuration
 interface g0/1
 switchport mode trunk
 
-Router Subinterfaces
+## Router Subinterfaces
 interface g0/0.10
 encapsulation dot1Q 10
 ip address 192.168.10.1 255.255.255.0
