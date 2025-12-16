@@ -32,3 +32,38 @@ vlan 20
 name IT
 vlan 30
 name HR
+
+Trunk Configuration
+interface g0/1
+switchport mode trunk
+
+Router Subinterfaces
+interface g0/0.10
+encapsulation dot1Q 10
+ip address 192.168.10.1 255.255.255.0
+
+Validation & Testing
+
+Verified VLAN assignments using show vlan brief
+
+Confirmed trunk status with show interfaces trunk
+
+Tested inter-VLAN connectivity using ping
+
+Troubleshooting Performed
+Issue	Cause	Resolution
+No inter-VLAN ping	Trunk not configured	Enabled trunk mode
+PC unreachable	Wrong gateway	Corrected default gateway
+Outcome
+
+Successfully enabled secure communication between multiple VLANs while maintaining logical segmentation.
+
+Skills Demonstrated
+
+VLAN configuration and trunking
+
+Router-on-a-Stick
+
+IP addressing and subnetting
+
+CLI-based troubleshooting
