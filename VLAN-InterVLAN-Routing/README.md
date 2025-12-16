@@ -56,7 +56,7 @@ Tested inter-VLAN connectivity using ping
 | No inter-VLAN ping	| Trunk not configured	| Enabled trunk mode |
 | PC unreachable | Wrong gateway | Corrected default gateway |
 
-Outcome
+## Outcome
 Successfully enabled secure communication between multiple VLANs while maintaining logical segmentation.
 
 ## Skills Demonstrated
