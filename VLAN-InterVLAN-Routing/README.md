@@ -38,17 +38,16 @@ interface g0/1
 switchport mode trunk
 
 ## Router Subinterfaces
-interface g0/0.10
-encapsulation dot1Q 10
-ip address 192.168.10.1 255.255.255.0
+
+- interface g0/0.10
+- encapsulation dot1Q 10
+- ip address 192.168.10.1 255.255.255.0
 
 ## Validation & Testing
 
-Verified VLAN assignments using show vlan brief
-
-Confirmed trunk status with show interfaces trunk
-
-Tested inter-VLAN connectivity using ping
+- Verified VLAN assignments using show vlan brief
+- Confirmed trunk status with show interfaces trunk
+- Tested inter-VLAN connectivity using ping
 
 ## Troubleshooting Performed
 | Issue	| Cause	| Resolution |
