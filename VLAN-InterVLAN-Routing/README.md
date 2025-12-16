@@ -34,8 +34,9 @@ vlan 30
 name HR
 
 ## Trunk Configuration
-interface g0/1
-switchport mode trunk
+
+- interface g0/1
+- switchport mode trunk
 
 ## Router Subinterfaces
 
