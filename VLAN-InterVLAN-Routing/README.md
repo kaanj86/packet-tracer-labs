@@ -51,9 +51,9 @@ Confirmed trunk status with show interfaces trunk
 Tested inter-VLAN connectivity using ping
 
 ## Troubleshooting Performed
-Issue	Cause	Resolution
-No inter-VLAN ping	Trunk not configured	Enabled trunk mode
-PC unreachable	Wrong gateway	Corrected default gateway
+| Issue	| Cause	| Resolution |
+| No inter-VLAN ping	| Trunk not configured	| Enabled trunk mode |
+| PC unreachable | Wrong gateway | Corrected default gateway |
 Outcome
 
 Successfully enabled secure communication between multiple VLANs while maintaining logical segmentation.
