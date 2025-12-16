@@ -25,7 +25,7 @@ The purpose of this lab was to design and configure a segmented network using VL
 ## Key Configurations
 
 ### VLAN Configuration (Switch)
-```bash
+
 vlan 10
 name Sales
 vlan 20
